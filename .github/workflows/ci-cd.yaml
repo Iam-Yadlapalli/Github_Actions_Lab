@@ -44,9 +44,8 @@ jobs:
             ${{ env.REGISTRY }}/${{ steps.image_name.outputs.name }}:latest
 
   deploy:
+      
     needs: build-and-push
-    # This job MUST run on a self-hosted runner installed on YOUR laptop,
-    # because that's the only place your local Kubernetes cluster (kind/minikube) is reachable.
     runs-on: self-hosted
     steps:
       - name: Checkout code
