@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 21,
+  "agentName": "DESKTOP-R9NC35U",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus9.actions.githubusercontent.com/vsiAerhJaymV4YiCV46BTl3v5df46JFM4krvgjcc2QqAZ36bHS/",
+  "gitHubUrl": "https://github.com/iam-yadlapalli/Github_Actions_Lab",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}

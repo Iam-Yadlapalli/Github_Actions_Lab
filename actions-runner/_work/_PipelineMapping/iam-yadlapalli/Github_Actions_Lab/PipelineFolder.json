@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "iam-yadlapalli/Github_Actions_Lab",
+  "pipelineDirectory": "Github_Actions_Lab",
+  "workspaceDirectory": "Github_Actions_Lab\\Github_Actions_Lab",
+  "repositories": {
+    "iam-yadlapalli/Github_Actions_Lab": {
+      "repositoryPath": "Github_Actions_Lab\\Github_Actions_Lab",
+      "lastRunOn": "08/26/2026 10:14:15 -04:00"
+    }
+  },
+  "lastRunOn": "08/26/2026 10:14:15 -04:00"
+}

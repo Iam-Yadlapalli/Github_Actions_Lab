@@ -53,11 +53,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Deploy manifests
+        shell: pwsh
         run: |
           kubectl apply -f k8s/deployment.yaml
           kubectl apply -f k8s/service.yaml
 
       - name: Update image to newly built tag
+        shell: pwsh
         run: |
           kubectl set image deployment/k8s-lab-app k8s-lab-app=${{ needs.build-and-push.outputs.image_tag }}
           kubectl rollout status deployment/k8s-lab-app --timeout=120s
